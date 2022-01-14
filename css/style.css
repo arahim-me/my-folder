@@ -37,6 +37,9 @@ a{
     padding: 12px 25px;
     font-size: 16px;
 }
+img{
+    border-radius: 8px;
+}
 /* Header Section Design */
 .nav-bar{
     display: flex;
