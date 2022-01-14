@@ -44,6 +44,7 @@ img{
 img:hover{
     transform: scale(1.5);
     transition: ease-in .5s;
+    cursor: pointer;
     
 }
 /* Header Section Design */
