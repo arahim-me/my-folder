@@ -37,8 +37,14 @@ a{
     padding: 12px 25px;
     font-size: 16px;
 }
+/* Image aniamation */
 img{
     border-radius: 8px;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: ease-in .5s;
+    
 }
 /* Header Section Design */
 .nav-bar{
