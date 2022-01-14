@@ -1,0 +1,43 @@
+/* Media Query Style Here */
+@media only screen and (max-width: 425px) {
+    /* Header Section */
+    nav ul li{
+        display: none;
+    }
+    nav.nav-bar{
+        justify-content: center;
+        font-size: 24px;
+    }
+    .top-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .top-section img{
+        width: 300px;
+    }
+    .top-section h2{
+        font-size: x-large;
+    }
+    .popular-collection {
+        display: flex;        
+        justify-content: center;
+        flex-direction: column;
+    }
+    .popular-collection img{
+        width: 260px;
+    }
+    .fast-delivery{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container{
+        margin: 0 10px;
+    }
+  }
+  /* 768px Display Design */
+  @media (max-width:768px) and (min-width: 426px){
+      .popular-collection{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+      }
+  }
