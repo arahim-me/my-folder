@@ -37,6 +37,9 @@ a{
     padding: 12px 25px;
     font-size: 16px;
 }
+.btn:hover{
+    cursor: pointer;
+}
 /* Image aniamation */
 img{
     border-radius: 8px;
